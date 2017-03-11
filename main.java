@@ -33,6 +33,7 @@ int scoreTeamA=0;
         scoreView.setText(String.valueOf(score));
     }
 
+    
     public void addThreeForTeamB(View v){
         scoreTeamB+=3;
         displayForTeamB(scoreTeamB);
